@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background-color: #23252B;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 140px;
+    height: auto;
+    fill:#F47521;
+}
+
+.content{
+    max-width: 1256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.banner-hime{
+    width: 100vw;
+    height: 620px;
+    margin-left: 148px;
+    background-image: url(./img/bg-shape-top.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.banner-hime .box{
+    position: relative;
+    max-width: 1160px;
+    height: 510px;
+    margin: 64px 84px;
+    margin-left: 180px;
+    background-color: #000000;
+}
+
+.banner-hime .box .text{
+    color: white;
+    width: 628px;
+    padding: 64px 0px 64px 72px;
+}
+
+.banner-hime .box .text h1{
+    font-size: 3rem;
+}
+
+.banner-hime .box .text h1 sup{
+    font-size: 14px;
+    display: inline-block;
+    vertical-align:top;
+    font-weight: 800;
+    line-height: 2;
+   
+}
+
+.banner-hime .box .text p{
+    font-size: 18px;
+    color: #A0A0A0;
+    line-height: 1.5;
+    margin-top: 17px;
+    margin-bottom: 24px;
+}
+
+.banner-hime .box .text button{
+    padding: 13px 30px;
+    border-style: none;
+    font-weight: 700;
+}
+
+.banner-hime .box .text button.b-orange{
+    background-color: #F47521;
+}
+
+.banner-hime .box .text button.b-black{
+    background-color: #000000;
+    color: #F47521;
+    font-weight: 800;
+}
+
+.banner-hime .box .text button.b-black .icon{
+    fill: #F47521;
+    transform: translateY(8px);
+}
+
+.img-yuzu{
+    position: absolute;
+    left: -60px;
+    bottom: -19px;
+}
+
+.img-hime{
+    display: inline-block;
+    position: absolute;
+   
+    left: 720px;
+    top: -40px;
+
+}
+
+.bg-services{
+    height: 730px;
+    width: 100%;
+    
+}
+
+.container{
+    padding: 72px 84px;
+    max-width: 1160px;
+    max-height: 556px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.bg-services .container .services{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 512px;
+    height: 556px;
+}
+
+.bg-services .container .services span{
+    font-size: 14px;
+    font-weight: 600;
+    width: 93px;
+    height: 26px;
+    padding: 5px;
+    background-color: #EF4323;
+}
+
+.bg-services .container .services h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 16px 0 8px 0;
+    
+}
+
+.bg-services .container .services p{
+    font-size: 18px;
+    color: #A0A0A0;
+   margin-bottom: 32px; 
+}
+
+.bg-services .container .services .litle-box{
+    background: #141519;
+    width: 512px;
+    height: 72px;
+    
+    margin-bottom: 12px;
+}           
+
+.bg-services .container .services .litle-box .heart{
+    color: #EF4323;
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.bg-services .container .services .litle-box .clock{
+    color: #2EA4A1;
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.bg-services .container .services .litle-box .save{
+    color: #E6AF25;
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.bg-services .container .services .litle-box .phone{
+    color: #E6AF25;
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.bg-services .container .img-desktop{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.bg-services .container .img-desktop span{
+    color: #A0A0A0;
+    font-size: 12px ;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.bg-services .container .img-desktop img{
+    width: 500px;
+    height: auto;
+}
